@@ -48,7 +48,7 @@ public class OpenDoor : Task
 
     public override bool run()
     {
-        return !myDoor.Open();
+        return myDoor.Open();
     }
 }
 
